@@ -4,6 +4,7 @@ metadata:
   labels:
     app: worker
   name: worker
+  namespace: voting-prod
 spec:
   replicas: 1
   selector:
